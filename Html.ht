@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/efaf8ffaf3.js" crossorigin="anonymous"></script>
+    <title>Personal-porTolio</title>
+</head>
+<body>
+    <div class="hero">
+        <marquee behavior="linear" direction="left" scrollamount="10">WELCOME TO MY WEBSITE !!!</marquee>
+        <nav>
+            <h2 class="logo">HRUSHI<span> DUBE</span></h2>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <button type="button">Subscribe</button>
+        </nav>
+        <div class="content">
+            <h4>Hello ,my name is</h4>
+            <h1>Hrushikesh<span> Dube</span></h1>
+            <h3>I'm doing Internship of Oasis</h3>
+            <div class="newsletter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter email">
+                    <input type="Submit" name="submit" value="let's start">
+                </form>
+            </div>
+        </div>
+    </div>
+    <section class="about">
+        <div class="main">
+            <img src="last (1).jpg">
+            <div class="text">
+                <h2>About Me</h2>
+                <h5>Electronics and<span> Computer Engineer</span></h5>
+                <p>I am a Electronics and Computer Engineer.I am pursuing my Engineering from
+                Sanjivani college of Engineering,Kopargaon.My hobbies are to play cricket,watch movies 
+                and webseries.My weakness are I trust anyone so easily and my strength are I am a fast learner
+                and confident</p>
+                <button type="button">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+    <div class="Qualification">
+        <div class="title">
+            <h2>QUALIFICATION</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-school"></i>
+                <h5>SSC EXAMINATION</h5>
+                <div class="pra">
+                      <p>I have scored 85 percent in SSC examination in 2019 and 
+                        I was first in my class.</p>
+                      <p style="text-align: center;">
+                        <a class="button" href="#">Read more</a>
+                      </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-building-columns"></i>
+                <h5>HSC EXAMINATION</h5>
+                <div class="pra">
+                      <p>I have scored 85 percent in HSC examination 2021 and 
+                        I have scored 75 percentile in CET exam.</p>
+                      <p style="text-align: center;">
+                        <a class="button" href="#">Read more</a>
+                      </p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h5>FIRST YEAR EXAM</h5>
+                <div class="pra">
+                      <p>I have scored 7.5 pointer in my first year of engineering.
+                        and i have scored 8 cgpa in end of year.</p>
+                      <p style="text-align: center;">
+                        <a class="button" href="#">Read more</a>
+                      </p>
+                </div>
+            </div>
+
+        </div>
+    </div>   
+
+    <div class="contact">
+        <p>This Is My Beautiful Website</p>
+        <a class="button-two" href="#">Contact No</a>
+    </div>
+
+    <footer>
+        <p>Hrushikesh Dube</p>
+        <p>I created this website using HTML,CSS.And thank you for 
+                       visiting my website.</p>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p class="end">Copywrigth by Hrushikesh Dube</p>
+    </footer>
+    
+</body>
+</html>
